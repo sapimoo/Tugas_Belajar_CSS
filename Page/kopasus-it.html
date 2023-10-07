@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Belajar Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* CSS untuk class harder */
+        .header {
+            background-color: green;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* setting layout maksimal screen size */
+        @media screen and (max-width:600px) {
+            .columnA, .columB, .columC {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width:400px) {
+            .columA, .columB, .columC {
+                width: 100%;
+            }
+        }
+
+        .columA {
+            float: left;
+            width: 100%;
+            padding: 15px;
+            text-align:justify;
+        }
+    </style>
+</head>
+<body>
+    <!-- header web -->
+    <div class="header">
+        <h2 style="color:white;font-size:200%">
+            SMA Plus PGRI Cibinong
+        </h2>
+    </div>
+
+    <!-- menu web -->
+    <div class = "nav_menu">
+        <a href="../index.html">Beranda</a>
+        <a href="studentday.html">Studentday</a>
+        <a href="#" class="active">Kopasus IT</a>
+    </div>
+
+    <!-- konten -->
+    <div class = "row">
+        <div class = "columA">
+            <h2>Ini Adalah Halaman Kopasus IT</h2>
+            <p>
+                Kopasus IT merupakan salah satu organisasi siswa yang ada di SMA Plus PGRI Cibinong
+                dan hanya ada di SMA Plus PGRI Cibinong. Ilmu pengetahuan dan teknologi merupakan Hal
+                yang paling pesat perkembangannya yang kita rasakan selama dalam dunia modern saat ini.
+                Setiap detiknya ilmu ini terus mengalami perkembangan-perkembangan yang signifikan.
+                Mempelajari teknologi saat ini telah menjadi sesuatu yang wajib bagi semua orang.
+                Sebab kemajuan teknologi saat ini menjadi salah satu syarat menggunakan alat-alat dalam
+                membantu menyelesaikan pekerjaan, tugas-tugas sekolah maupun kuliah.
+            </p>
+        </div>
+        <center>
+            <img src="../gambar/89cff915359a0df7a96d158a3843228b.jpg" alt="ini gambar donat">
+        </center>
+    </div>  
+</body>
+</html>
